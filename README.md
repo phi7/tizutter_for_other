@@ -5,8 +5,10 @@ Twitterと地図を組み合わせたようなアプリです．
 アプリの詳しい内容は以下のスライドで
 https://docs.google.com/presentation/d/1NBklND5LnavuWq-II3FktVK4Gf8O2ILwY5ElrSvTXwA/edit?usp=sharing
 
-#注意
-クローンしてもgoogle_mapのapi_keyがないため動きません．
+
+# 注意
+・apikeyがベタ打ちしてあったため，直近のコミットだけをクローンしたものです．(そのため他のメンバーがどれをコミットしたかなどはわかりません．)
+・クローンしてもgoogle_mapのapi_keyがないため動きません．
 android/app/src/main/AndroidManifest.xmlとios/Runner/AppDelegate.swift
 にapi_keyを追加すれば動くかと思います．（FirebaseのPJのほうをこちらで削除していたら動きません．その場合は
 FirebaseのPJ作成のほうからお願いいたします）
